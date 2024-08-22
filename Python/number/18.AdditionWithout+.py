@@ -1,4 +1,4 @@
-def add_without_plus_operator(a, b):
+def add_without_plus(a, b):
     while b != 0:
         carry = a & b
         a = a ^ b
@@ -6,7 +6,6 @@ def add_without_plus_operator(a, b):
     
     return a
 
-# Example usage
 num1 = 15
 num2 = 27
 result = add_without_plus_operator(num1, num2)
